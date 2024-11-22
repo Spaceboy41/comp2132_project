@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<!-- 
+        author: Hrishikesh Kilaje
+        date: 21-Nov-24
+    -->
+	<head>
+		<title>COMP 2132 | Hangman Game </title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicon link -->
+        <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- JavaScripts -->
+        <script src="../scripts/script.js" defer="defer"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- Importing fonts from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+        <div class="container">
+            <header>
+                <div class="header-contents">
+                    <h2 id="courseName">Course Name</h2>
+                    <h2 id="assignmentNumber">Assignment Number</h2>
+                </div>
+            </header>
+            <main>
+                <div id="game-container">
+                    <h1>Hangman Page Game</h1>
+                    <h3>Guess the correct answer before Hangman Page burns down your house!</h3>
+                    <p id="hint"><strong>Hint:</strong> <span id="hint-text"></span></p>
+            
+                    <div id="word-container">_ _ _ _ _</div>
+                    
+                    <div id="hangman-image">
+                        <img id="hangman-stage" src="assets/images/hangman0.png" alt="Hangman-image">
+                    </div>
+            
+                    <div id="letter-buttons"></div>
+            
+                    <p id="message"></p>
+                    <button id="play-again">Play Again</button>
+                </div>
+            </main>
+            <footer>
+                <div class="footer-header">
+                    <h2>Contact & Socials</h2>
+                </div>
+                <div class="footer-item1">
+                    <p><a class="footer-link" href="mailto:page@hangman.com">page@hangman.com</a></p>
+                </div>
+                <div class="footer-item2">
+                    <a class="social_a facebook" href="https://www.facebook.com/AEW/" target="_blank">Facebook</a>
+                    <a class="social_a instagram" href="https://www.instagram.com/aew/" target="_blank">Instagram</a>
+                </div>
+                <div class="footer-item3">
+                    <p>© 2024 
+                        <a class="footer-link" href="https://ca.linkedin.com/in/rishikilaje" target="_blank">Hrishikesh Kilaje</a>
+                    </p>
+                </div>
+            </footer>
+        </div> 
+    </body>
+</html>
